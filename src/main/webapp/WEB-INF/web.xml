@@ -1,0 +1,68 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+
+  <servlet>
+  	<servlet-name>AddStudentToClass</servlet-name>
+  	<display-name>AddStudentToClass</display-name>
+  	<description></description>
+  	<servlet-class>com.servlet.AddStudentToClass</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>SaveAttendance</servlet-name>
+  	<display-name>SaveAttendance</display-name>
+  	<description></description>
+  	<servlet-class>com.servlet.SaveAttendance</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>SaveClass</servlet-name>
+  	<display-name>SaveClass</display-name>
+  	<description></description>
+  	<servlet-class>com.servlet.SaveClass</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>SaveProfessor</servlet-name>
+  	<display-name>SaveProfessor</display-name>
+  	<description></description>
+  	<servlet-class>com.servlet.SaveProfessor</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>SaveSpecialization</servlet-name>
+  	<display-name>SaveSpecialization</display-name>
+  	<description></description>
+  	<servlet-class>com.servlet.SaveSpecialization</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>SaveStudent</servlet-name>
+  	<display-name>SaveStudent</display-name>
+  	<description></description>
+  	<servlet-class>com.servlet.SaveStudent</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>AddStudentToClass</servlet-name>
+  	<url-pattern>/AddStudentToClass</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SaveAttendance</servlet-name>
+  	<url-pattern>/SaveAttendance</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SaveClass</servlet-name>
+  	<url-pattern>/SaveClass</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SaveProfessor</servlet-name>
+  	<url-pattern>/SaveProfessor</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SaveSpecialization</servlet-name>
+  	<url-pattern>/SaveSpecialization</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SaveStudent</servlet-name>
+  	<url-pattern>/SaveStudent</url-pattern>
+  </servlet-mapping>
+</web-app>
